@@ -21,10 +21,28 @@
 ## Which languages are most used to interact with ethereum
 
 1.  Javascript - DAPPs
-2.  Golang - main ethereum client
+2.  Golang - main ethereum client (abigen - demo?)
 3.  Rust - second biggest ethereum client
 
-## Deploying the contract - Parity + Parity UI or JS
+## Deploying the contract - or JS or golang or remix browser
 
 * Truffle (compile, deploy...)
 * Web3
+* ethjs
+* Parity + Parity UI
+* golang (abigen)
+* [remix browser](https://remix.ethereum.org)
+
+## DAPPs - decentralized apps
+
+[dapp demo](./dapp)
+
+## Components of a dapp
+
+* Static websites (can be stored on IPFS)
+* Using web3 to interact with a local node (or remote) via jsonrpc
+* Wallet (metamask, parity, mew, ledger...)
+
+## Our attendance dapp demo
+
+[See here](./dapp)
