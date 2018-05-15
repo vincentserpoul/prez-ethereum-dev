@@ -25,3 +25,5 @@ Ethereum and bitcoin use secp256k1 (elliptic curve - ECDSA) - [potentially unsaf
 ```bash
 go run 02_crypto_refresher/signature/main.go
 ```
+
+continue [here](./03_ethereum/README.md)

@@ -121,3 +121,5 @@ solc contract/EvtAttendance.sol --bin
 * Most common tool is [Truffle](http://truffleframework.com/)
 * Less common ones: [perigord](https://github.com/polyswarm/perigord), [dapple](https://dapp.readthedocs.io/en/latest/)...
 * Manually, thanks to a mock node (ethereumjs)
+
+continue [here](./05_interacting_with_contracts/README.md)

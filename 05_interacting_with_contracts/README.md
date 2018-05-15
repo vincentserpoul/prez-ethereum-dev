@@ -46,3 +46,23 @@
 ## Our attendance dapp demo
 
 [See here](./dapp)
+
+## Implementation in golang
+
+### Ropsten is too long to sync, let's take the opportunity to use parity dev and its UI
+
+launching a dev parity instance
+
+```bash
+docker volume create --driver=local parity-dev-demo
+
+docker run -dit --name parity-dev-demo --volume parity-dev-demo:/root/.local/share/io.parity.ethereum/ parity/parity:v1.10.3 --config=dev --jsonrpc-port=10545 --jsonrpc-cors=all --ws-port=10546 --port=40303 --unsafe-expose --reseal-min-period=0 --no-persistent-txqueue --base-path=/root/.local/share/io.parity.ethereum
+```
+
+launching the [UI](https://github.com/parity-js/shell/releases)
+
+```bash
+./parity-ui --ws-interface http://127.0.0.1 --ws-port 10546
+```
+
+Deploy your contract within the UI

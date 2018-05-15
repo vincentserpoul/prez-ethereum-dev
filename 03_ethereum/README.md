@@ -8,7 +8,7 @@ compile code to EVM (assembly/lisp)
 
 example:
 
-```assembly
+```evmcode
 PUSH1 0 CALLDATALOAD SLOAD NOT PUSH1 9 JUMPI STOP JUMPDEST PUSH1 32 CALLDATALOAD PUSH1 0 CALLDATALOAD SSTORE
 ```
 
@@ -22,3 +22,5 @@ SIGNED
 gas: unit of measuring the computational work (example Watts)
 gas limit: maximum you re willing to spend
 gas price: at what price
+
+continue [here](./04_solidity/README.md)
