@@ -56,13 +56,21 @@ launching a dev parity instance
 ```bash
 docker volume create --driver=local parity-dev-demo
 
-docker run -dit --name parity-dev-demo --volume parity-dev-demo:/root/.local/share/io.parity.ethereum/ parity/parity:v1.10.3 --config=dev --jsonrpc-port=10545 --jsonrpc-cors=all --ws-port=10546 --port=40303 --unsafe-expose --reseal-min-period=0 --no-persistent-txqueue --base-path=/root/.local/share/io.parity.ethereum
+docker run -dit --name parity-dev-demo --volume parity-dev-demo:/root/.local/share/io.parity.ethereum/ -p 10545:10545 -p 10546:10546 parity/parity:v1.10.3 --config=dev --jsonrpc-port=10545 --jsonrpc-cors=all --ws-port=10546 --port=40303 --unsafe-expose --reseal-min-period=0 --no-persistent-txqueue --base-path=/root/.local/share/io.parity.ethereum
 ```
 
 launching the [UI](https://github.com/parity-js/shell/releases)
 
+on linux
+
 ```bash
 ./parity-ui --ws-interface http://127.0.0.1 --ws-port 10546
+```
+
+on a mac
+
+```bash
+open -a /Applications/Parity\ UI.app/Contents/MacOS/Parity\ UI --args  --ws-interface http://127.0.0.1 --ws-port 10546
 ```
 
 Deploy your contract within the UI
