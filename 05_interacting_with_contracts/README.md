@@ -74,3 +74,17 @@ open -a /Applications/Parity\ UI.app/Contents/MacOS/Parity\ UI --args  --ws-inte
 ```
 
 Deploy your contract within the UI
+
+modify the address in the first line of the main.go
+run!
+
+```bash
+go run go/*.go
+```
+
+## Feedback
+
+![Feedback wanted](./QR_code_ZNK8RV9.png)
+
+[feedback wanted](https://fr.surveymonkey.com/r/ZNK8RV9)
+
