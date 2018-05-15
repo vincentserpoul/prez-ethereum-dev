@@ -87,4 +87,3 @@ go run go/*.go
 ![Feedback wanted](./QR_code_ZNK8RV9.png)
 
 [feedback wanted](https://fr.surveymonkey.com/r/ZNK8RV9)
-
