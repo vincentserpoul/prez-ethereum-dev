@@ -26,4 +26,4 @@ courtesy of David Harding - [stackoverflow](https://bitcoin.stackexchange.com/qu
 
 which then allows many business use cases
 
-continue [here](https://github.com/vincentserpoul/prez-ethereum-dev/blob/master/01_blockchain_overview/README.md)
+continue [here](https://github.com/vincentserpoul/prez-ethereum-dev/blob/master/02_crypto_refresher/README.md)
