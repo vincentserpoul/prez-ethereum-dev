@@ -122,4 +122,4 @@ solc contract/EvtAttendance.sol --bin
 * Less common ones: [perigord](https://github.com/polyswarm/perigord), [dapple](https://dapp.readthedocs.io/en/latest/)...
 * Manually, thanks to a mock node (ethereumjs)
 
-continue [here](./05_interacting_with_contracts/README.md)
+continue [here](./tree/master/05_interacting_with_contracts/README.md)

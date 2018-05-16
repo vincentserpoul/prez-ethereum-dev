@@ -23,4 +23,4 @@ gas: unit of measuring the computational work (example Watts)
 gas limit: maximum you re willing to spend
 gas price: at what price
 
-continue [here](./04_solidity/README.md)
+continue [here](./tree/master/04_solidity/README.md)

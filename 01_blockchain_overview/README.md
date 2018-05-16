@@ -26,4 +26,4 @@ courtesy of David Harding - [stackoverflow](https://bitcoin.stackexchange.com/qu
 
 which then allows many business use cases
 
-continue [here](./02_crypto_refresher/README.md)
+continue [here](./tree/master/02_crypto_refresher/README.md)
